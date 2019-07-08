@@ -1,0 +1,9 @@
+<Limit GET POST PUT DELETE>
+    Allow from all
+</Limit>
+
+RewriteEngine On
+RewriteBase /api/
+RewriteRule (.*) http://bookshop.loc/$1
+#RewriteRule (.*) http://tc.geeksforless.net/~user12//api/$1
+
