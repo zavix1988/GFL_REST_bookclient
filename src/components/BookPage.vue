@@ -49,7 +49,7 @@
         },
         created() {
             axios
-                .get('http://bookshop.loc/api/books/book/'+this.$route.params.slug)
+                .get('http://tc.geeksforless.net/~user12/bookclient/api/books/book/'+this.$route.params.slug)
                 .then(response => (this.book = response.data.book))
         },
         methods: {

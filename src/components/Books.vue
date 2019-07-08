@@ -55,7 +55,7 @@
         },
         created() {
             axios
-                .get('http://bookclient.loc/api/books/allbooks')
+                .get('http://tc.geeksforless.net/~user12/bookclient/api/books/allbooks')
                 .then(response => {
                         this.books = response.data.books;
                         this.authors = response.data.authors;

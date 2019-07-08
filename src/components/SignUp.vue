@@ -60,7 +60,7 @@
         methods: {
             onSubmit() {
                 if (this.checkForm()){
-                    axios.post('http://bookclient.loc/api/user/signup', 'first_name='+this.form.first_name+
+                    axios.post('http://tc.geeksforless.net/~user12/bookclient/api/user/signup', 'first_name='+this.form.first_name+
                                                                  '&last_name='+this.form.last_name+
                                                                  '&email='+this.form.email+
                                                                  '&login='+this.form.login+
